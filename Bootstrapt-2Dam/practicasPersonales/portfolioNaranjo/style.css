@@ -63,25 +63,6 @@ body {
 
 }
 
-/* Estilo base para todos los enlaces del navbar */
-.nav-link {
-  position: relative;
-  text-decoration: none;
-  padding: 8px 12px;
-  font-weight: 500;
-  transition: all 0.3s ease;
-  border-radius: 6px;
-}
-
-/* Hover para todos los enlaces */
-.nav-link:hover {
-  color: #1B1B32; /* color principal */
-  background-color: rgba(4, 32, 38, 0.025); /* fondo sutil */
-  transform: translateY(-2px); /* efecto elevación */
-  box-shadow: 0 6px 16px rgba(1, 19, 23, 0.2); /* glow suave */
-}
-
-
 .navbar-collapse {
   align-items: center;
   justify-content: space-between;
@@ -115,7 +96,7 @@ body {
   gap: 25px;
   /* espacio entre iconos */
   justify-content: center;
-  margin-top: 15px;
+  margin-top: 65px;
 }
 
 .redes-container a {
